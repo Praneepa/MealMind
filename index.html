@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MealMind AI - Smart AI meal planner for Sri Lankan families. Get personalised weekly meal plans, grocery lists, and recipes based on your budget and dietary preferences.">
+    <meta name="keywords" content="AI meal planner, Sri Lankan meal plan, weekly meal planner, budget meal planning, healthy Sri Lankan food, vegetarian meal plan Sri Lanka, grocery list generator">
+    <meta name="author" content="MealMind AI">
+    <meta name="robots" content="index, follow">
+    <title>MealMind AI | Smart Meal Planner for Sri Lankan Families</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo"><span class="logo-emoji">🍛</span><span>Meal<span class="logo-highlight">Mind</span> AI</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="meal-plans.html">Our Meal Plans</a></li>
+                <li><a href="blog.html">Blog & Tips</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="signup.html" class="btn btn-primary btn-nav">Get a FREE meal plan</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero: Centered Text + Food Collage Below -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-center">
+                <div class="hero-badge">🤖 AI-Powered Meal Planning for Sri Lanka</div>
+                <h1>Your Weekly Meals,<br><span class="text-accent">Planned in Seconds.</span></h1>
+                <p class="hero-sub">MealMind AI creates personalised weekly meal plans with authentic Sri Lankan recipes, smart grocery lists, and budget-friendly options — all powered by artificial intelligence.</p>
+                <div class="hero-buttons">
+                    <a href="signup.html" class="btn btn-primary btn-large"><i class="fas fa-utensils"></i> Get Your Free Meal Plan</a>
+                    <a href="how-it-works.html" class="btn btn-outline btn-large">See How It Works <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="hero-trust">
+                    <span><i class="fas fa-users"></i> 1,200+ families</span>
+                    <span class="dot"></span>
+                    <span><i class="fas fa-star"></i> 4.9/5 rating</span>
+                    <span class="dot"></span>
+                    <span><i class="fas fa-leaf"></i> 100% Sri Lankan recipes</span>
+                </div>
+            </div>
+        </div>
+        <div class="collage-wrapper">
+            <div class="collage">
+                <div class="col-item col-tall">
+                    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&h=700&fit=crop" alt="Sri Lankan rice and curry spread">
+                    <div class="col-label">Rice & Curry</div>
+                </div>
+                <div class="col-item">
+                    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400&h=330&fit=crop" alt="Dhal curry">
+                    <div class="col-label">Dhal Curry</div>
+                </div>
+                <div class="col-item">
+                    <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&h=330&fit=crop" alt="Egg hoppers">
+                    <div class="col-label">Egg Hoppers</div>
+                </div>
+                <div class="col-item col-tall">
+                    <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=500&h=700&fit=crop" alt="Vegetable curry">
+                    <div class="col-label">Vegetable Curry</div>
+                </div>
+                <div class="col-item">
+                    <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=330&fit=crop" alt="Coconut sambol">
+                    <div class="col-label">Coconut Sambol</div>
+                </div>
+                <div class="col-item">
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=400&h=330&fit=crop" alt="Meal prep">
+                    <div class="col-label">Meal Prep</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="container">
+            <div class="stats-flex">
+                <div class="s-item"><span class="s-num">1,200+</span><span class="s-label">Families</span></div>
+                <div class="s-item"><span class="s-num">Rs.3,000+</span><span class="s-label">Saved Weekly</span></div>
+                <div class="s-item"><span class="s-num">40%</span><span class="s-label">Less Food Waste</span></div>
+                <div class="s-item"><span class="s-num">5,000+</span><span class="s-label">Plans Generated</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us: Numbered Horizontal Cards -->
+    <section class="why-section">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-tag">Why MealMind AI?</span>
+                <h2>Meal Planning Made <span class="text-accent">Effortless</span></h2>
+            </div>
+            <div class="why-list">
+                <div class="why-row"><div class="why-num">01</div><div class="why-body"><h3>🧠 AI-Powered Personalisation</h3><p>Our intelligent algorithm learns your preferences, dietary needs, and budget to create meal plans uniquely yours.</p></div></div>
+                <div class="why-row"><div class="why-num">02</div><div class="why-body"><h3>🇱🇰 Authentic Sri Lankan Recipes</h3><p>From rice and curry to kottu and hoppers — every recipe uses locally available ingredients and familiar flavours.</p></div></div>
+                <div class="why-row"><div class="why-num">03</div><div class="why-body"><h3>💰 Budget-Friendly Planning</h3><p>Set your weekly budget and get meal plans that fit your finances. No overspending, no food waste.</p></div></div>
+                <div class="why-row"><div class="why-num">04</div><div class="why-body"><h3>📋 Automatic Grocery Lists</h3><p>Every plan comes with a categorised grocery list, making trips to the Pola or supermarket quick and efficient.</p></div></div>
+                <div class="why-row"><div class="why-num">05</div><div class="why-body"><h3>🥗 Dietary Flexibility</h3><p>Vegetarian, healthy, or family-sized — MealMind AI adapts to your dietary requirements with tailored suggestions.</p></div></div>
+                <div class="why-row"><div class="why-num">06</div><div class="why-body"><h3>⏱️ Save Hours Every Week</h3><p>Get a full week of meals planned in under 30 seconds with step-by-step recipes and cooking times.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works: Vertical Timeline -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-tag">Simple Process</span>
+                <h2>How <span class="text-accent">MealMind AI</span> Works</h2>
+                <p>Three simple steps to a week of delicious, organised meals</p>
+            </div>
+            <div class="timeline">
+                <div class="tl-item">
+                    <div class="tl-line"></div>
+                    <div class="tl-dot"><span>1</span></div>
+                    <div class="tl-card">
+                        <h3>🎯 Set Your Preferences</h3>
+                        <p>Tell us your budget, dietary needs (healthy, vegetarian, or budget-friendly), and family size. Our AI learns what works for you.</p>
+                        <div class="tl-tags"><span>💰 Budget</span><span>🥗 Healthy</span><span>🌿 Vegetarian</span></div>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-line"></div>
+                    <div class="tl-dot"><span>2</span></div>
+                    <div class="tl-card">
+                        <h3>🤖 AI Generates Your Plan</h3>
+                        <p>MealMind AI creates a complete 7-day meal plan with breakfast, lunch, and dinner — all using authentic Sri Lankan recipes tailored to your inputs.</p>
+                    </div>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-line last"></div>
+                    <div class="tl-dot"><span>3</span></div>
+                    <div class="tl-card">
+                        <h3>🛒 Cook & Enjoy</h3>
+                        <p>Get your organised grocery list, follow step-by-step recipes, and enjoy home-cooked Sri Lankan meals all week without planning stress.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta"><a href="how-it-works.html" class="btn btn-primary btn-large">Learn More <i class="fas fa-arrow-right"></i></a></div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-top">
+                <span class="section-tag">What People Say</span>
+                <h2>Loved by <span class="text-accent">Sri Lankan Families</span></h2>
+            </div>
+            <div class="review-grid">
+                <div class="r-card">
+                    <div class="r-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"MealMind AI completely changed how our family eats. We save at least Rs. 3,000 every week because we only buy what we need. The Sri Lankan recipes are exactly what my amma used to make!"</p>
+                    <div class="r-author"><div class="r-avatar" style="background:#e8a87c;">NP</div><div><strong>Nimali Perera</strong><span>Mother of 3, Colombo</span></div></div>
+                </div>
+                <div class="r-card accent">
+                    <div class="r-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"As a university student living alone, I had no idea how to plan meals. MealMind AI gives me a full week of healthy, budget-friendly meals. The grocery list feature is a lifesaver!"</p>
+                    <div class="r-author"><div class="r-avatar" style="background:#85cdca;">SF</div><div><strong>Sahan Fernando</strong><span>Undergraduate, Kandy</span></div></div>
+                </div>
+                <div class="r-card">
+                    <div class="r-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"I switched to the vegetarian meal plans and I am genuinely impressed. Every meal is flavourful and uses ingredients I can find at the local Pola. My family loves the variety!"</p>
+                    <div class="r-author"><div class="r-avatar" style="background:#d4a574;">KR</div><div><strong>Kavindi Rajapaksa</strong><span>Nutritionist, Galle</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-text">
+                    <h2>Ready to Simplify Your Kitchen?</h2>
+                    <p>Join 1,200+ Sri Lankan families who plan smarter, eat better, and waste less.</p>
+                </div>
+                <a href="signup.html" class="btn btn-white btn-large"><i class="fas fa-utensils"></i> Get Your Free Meal Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo"><span class="logo-emoji">🍛</span><span>Meal<span class="logo-highlight">Mind</span> AI</span></a>
+                    <p>AI-powered meal planning for Sri Lankan families. Plan smarter, eat better, waste less.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="how-it-works.html">How It Works</a></li><li><a href="meal-plans.html">Our Meal Plans</a></li><li><a href="blog.html">Blog & Tips</a></li><li><a href="about.html">About Us</a></li></ul></div>
+                <div class="footer-links"><h4>Resources</h4><ul><li><a href="blog.html">Meal Planning Tips</a></li><li><a href="blog.html">Budget Cooking Guides</a></li><li><a href="meal-plans.html">Sample Meal Plans</a></li><li><a href="signup.html">Sign Up for Free</a></li></ul></div>
+                <div class="footer-links"><h4>External Links</h4><ul><li><a href="https://www.health.gov.lk" target="_blank" rel="noopener noreferrer">Ministry of Health Sri Lanka</a></li><li><a href="https://www.who.int/nutrition" target="_blank" rel="noopener noreferrer">WHO Nutrition</a></li><li><a href="https://www.fao.org/nutrition" target="_blank" rel="noopener noreferrer">FAO Nutrition</a></li><li><a href="https://www.iit.ac.lk" target="_blank" rel="noopener noreferrer">IIT Sri Lanka</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 MealMind AI. All rights reserved. | Developed for 6MARK027C Digital Marketing Coursework</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
